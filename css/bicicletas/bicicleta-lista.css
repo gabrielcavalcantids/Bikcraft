@@ -9,9 +9,14 @@
 .bicicleta-lista ul {
   display: flex;
   gap: 2.5rem;
-  padding: 0 1.125rem;
+  padding: 0 1.125rem 1.125rem 1.125rem;
   margin: 0 auto;
   max-width: 1400px;
+  overflow: auto;
+}
+
+.bicicleta-lista li {
+  min-width: 280px;
   overflow-y: hidden;
 }
 .bicicleta-lista img {
@@ -26,14 +31,29 @@
 }
 
 .bicicleta-lista h3::before {
-  content: '';
+  content: "";
   background-color: var(--cor-p1);
   height: 8px;
   width: 12px;
   margin-right: 8px;
   display: inline-block;
+  transition: 0.2s;
+}
+
+.bicicleta-lista a:hover h3::before {
+  width: 24px;
+  transition: 0.2s;
 }
 
 .bicicleta-lista li span {
   padding-left: 20px;
+}
+
+@media (max-width: 800px) {
+  .bicicleta-lista {
+    padding: 60px 0;
+  }
+  .bicicleta-lista ul {
+    gap: 1.125rem;
+  }
 }
