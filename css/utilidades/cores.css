@@ -17,6 +17,10 @@
   --cor-p3: #a66f00;
   --cor-p4: #664400;
   --cor-p5: #332200;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .cor-0 {

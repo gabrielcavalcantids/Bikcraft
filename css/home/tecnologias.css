@@ -64,6 +64,9 @@ h3 {
   .tecnologia {
     grid-template-columns: 1fr;
   }
+  .tecnologia-conteudo a {
+    margin-bottom: 3.75rem;
+  }
   .tecnologia-conteudo {
     padding-top: 60px;
     padding-bottom: 60px;
