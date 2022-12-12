@@ -23,7 +23,7 @@
 .parceiros li:nth-child(5) {
   border-left: none;
 }
-.parceiros li:nth-child(n + 5){
+.parceiros li:nth-child(n + 5) {
   border-top: 2px solid var(--cor-2);
 }
 
@@ -46,5 +46,9 @@
   }
   .parceiros li:nth-child(odd) {
     border-left: none;
+  }
+  .parceiros ul li {
+    display: flex;
+    padding: 1.25rem;
   }
 }
