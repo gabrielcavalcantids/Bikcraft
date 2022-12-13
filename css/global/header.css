@@ -3,11 +3,12 @@
 }
 .header {
   display: flex;
+  flex-wrap: wrap;
+  gap: 1.25rem;
   justify-content: space-between;
   align-items: center;
-  gap: 1.25rem;
-  flex-wrap: wrap;
-  padding: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
 }
 
 .header-menu {

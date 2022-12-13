@@ -9,6 +9,7 @@
   grid-template-columns: 1fr 1fr;
   gap: 2.5rem;
 }
+
 .introducao-conteudo {
   align-self: end;
   padding-bottom: 200px;
