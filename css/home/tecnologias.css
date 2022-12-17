@@ -27,7 +27,7 @@
   margin-bottom: 2rem;
 }
 
-.tecnologia-conteudo p {
+.tecnologia-conteudo > p {
   margin-bottom: 1.125rem;
 }
 
